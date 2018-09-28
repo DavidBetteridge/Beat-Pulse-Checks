@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeatPulse.Elasticsearch", "Elasticsearch\BeatPulse.Elasticsearch.csproj", "{1FF4CFFB-C00A-4A7E-BBB6-248643A9A8AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeatPulse.AzureServiceBusManagement", "AzureManagementServiceBus\BeatPulse.AzureServiceBusManagement.csproj", "{5BAE8163-0F3E-496A-A652-574DB57C4B57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FF4CFFB-C00A-4A7E-BBB6-248643A9A8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF4CFFB-C00A-4A7E-BBB6-248643A9A8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF4CFFB-C00A-4A7E-BBB6-248643A9A8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF4CFFB-C00A-4A7E-BBB6-248643A9A8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BAE8163-0F3E-496A-A652-574DB57C4B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAE8163-0F3E-496A-A652-574DB57C4B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAE8163-0F3E-496A-A652-574DB57C4B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAE8163-0F3E-496A-A652-574DB57C4B57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99683BB5-8D77-4A91-BBEA-EF3B31EC0AD2}
+	EndGlobalSection
+EndGlobal
